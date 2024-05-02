@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(36, 5, 5);
+    margin: 0;
+}
+div > img{
+    size: 5px;
+    text-align: center;
+}
+nav{
+    margin: 0;
+    background-color: rgb(140, 201, 158);
+    height: 135px;
+    align-items: center;
+    text-align: center;
+}
+
+nav > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav > div > a {
+    color:rgb(242, 255, 127);
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    border-radius: 6px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+div > a:hover{
+    background-color: rgba(152, 64, 235, 0.151) ;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+#inicial{
+    color:red;
+    text-align: center;
+}
+#sobre{
+    color: purple
+}
+#contato{
+    color: aqua;
+}
+#suporte{
+    color:chocolate
+}
